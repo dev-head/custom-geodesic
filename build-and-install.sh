@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-OWNER="${1:-dev-head/geodesic}"
+OWNER="${1:-custom-example/geodesic}"
 OS="${2:-debian}"
 VERSION="${3:-2.7.1}"
 INSTALL="${4:-true}"
