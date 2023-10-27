@@ -2,10 +2,9 @@ ARG VERSION=2.7.1
 ARG OS=debian
 FROM cloudposse/geodesic:$VERSION-$OS
 
-ARG CUSTOM_OWNER="example/geodesic"
+ARG CUSTOM_OWNER="custom-example/geodesic"
 ARG CUSTOM_VERSION="2.7.1"
 ARG CUSTOM_OS="debian"
-
     
 ENV BANNER="${CUSTOM_OWNER}"
 ENV DOCKER_IMAGE="$CUSTOM_OWNER"
