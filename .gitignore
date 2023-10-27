@@ -1,0 +1,5 @@
+# IDE/OS ignores
+.idea 
+.DS_Store
+*.sublime-*
+*.ide-plugin.xml
