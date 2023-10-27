@@ -13,6 +13,5 @@ ENV HOME=/localhost
     
 RUN echo "installing more tooling" \
     && apt-get update \
-    && apt-get install -y atmos \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes --no-install-recommends --no-install-suggests \
         atmos
